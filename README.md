@@ -9,7 +9,7 @@ npm i
 npm run dev
 ```
 
-Open http://localhost:5173.
+Open https://dynamic-ui-phi.vercel.app/
 
 ## Tech
 - React + TS + Vite
