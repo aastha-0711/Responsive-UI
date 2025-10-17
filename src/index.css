@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Montserrat:wght@400;600&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Nunito:wght@400;600&display=swap');
+
+/* Your custom overrides must come AFTER these lines */
+@layer base {
+  /* Make form labels / headings bright in dark mode */
+  .dark label,
+  .dark .text-gray-700,
+  .dark .text-neutral-700,
+  .dark .text-neutral-600,
+  .dark h2,
+  .dark h3,
+  .dark p,
+  .dark span {
+    color: #f3f4f6 !important; /* white text for dark mode */
+  }
+
+  /* Input and textarea background + text */
+  .dark input,
+  .dark select,
+  .dark textarea {
+    background-color: #f9fafb !important; /* light background */
+    color: #111827 !important; /* dark readable text */
+    border-color: #404040 !important;
+  }
+
+  /* Optional: focus state */
+  .dark input:focus,
+  .dark textarea:focus,
+  .dark select:focus {
+    outline: 2px solid #60a5fa !important; /* blue focus ring */
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Improve slider and small label visibility */
+  .dark .text-sm,
+  .dark .text-xs {
+    color: #e5e7eb !important;
+  }
+  .dark .palette-label {
+  color: #000 !important;
+}
+.palette-label {
+  color: #fff !important; /* only for active in light mode */
+}
+.dark .palette-label {
+  color: #000 !important; /* only for active in dark mode */
+}
+.custom-radio-label { color: #fff !important; }
+.dark .custom-radio-label { color: #000 !important; }
+
+/* Do NOT override all .text-sm in dark */
+
+
+}

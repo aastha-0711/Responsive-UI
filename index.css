@@ -1,0 +1,15 @@
+:root {
+  --panel-bg: #ffffff;
+  --panel-text: #111827;
+}
+
+html.dark {
+  --panel-bg: #0a0a0a;
+  --panel-text: #f3f4f6;
+}
+
+body {
+  background-color: var(--panel-bg);
+  color: var(--panel-text);
+  transition: background-color 0.3s, color 0.3s;
+}
