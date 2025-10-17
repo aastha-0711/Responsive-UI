@@ -54,6 +54,8 @@ Users can tweak typography, button styles, gallery layout, and overall design ap
 ---
 
 ## 🧠 Architecture
+
+```bash
 src/
   components/design/
     DesignPreview.tsx        → Main preview component
@@ -68,8 +70,8 @@ src/
     schema.ts, defaults.ts    → Zod schema validation and default configuration
   pages/
     Demo.tsx                  → Main page combining the editor and live preview
-
-    ---
+```
+---
     
 ## 🚀 Run the Project Locally
 # 1. Clone the repository
