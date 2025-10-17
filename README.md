@@ -1,68 +1,57 @@
-# Dynamic UI Editor
+# 🎨 Dynamic UI Editor for Customizable Designs
 
-A React + TypeScript + Tailwind app that lets you live‑edit a component library (typography, buttons, gallery, layout) with real-time preview, layout A/B switching, and JSON import/export.
+**Live Demo:** [https://dynamic-ui.vercel.app](https://dynamic-ui.vercel.app)  
+**GitHub Repository:** [https://github.com/aastha-0711/Responsive-UI](https://github.com/aastha-0711/Responsive-UI)
 
-## Quick start
+---
 
-```bash
-npm i
-npm run dev
-```
+## 📘 Overview
+This project is a **Dynamic UI Editor** built with **React + TypeScript + TailwindCSS** that allows users to visually customize a predesigned UI component in real time.  
+Users can tweak typography, button styles, gallery layout, and overall design appearance — all reflected instantly in a live preview.
 
-Open https://dynamic-ui-phi.vercel.app/
+---
 
-## Tech
-- React + TS + Vite
-- TailwindCSS
-- Zustand (state)
-- Zod (schema/validation)
+## ⚡ Features
 
-## Structure
-```
-src/
-  components/design/
-    DesignPreview.tsx
-    layouts/
-      LayoutA.tsx
-      LayoutB.tsx
-    primitives/
-      Button.tsx
-      Card.tsx
-      Gallery.tsx
-      Section.tsx
-      Typography.tsx
-  editor/
-    EditorPanel.tsx
-    controls/
-      Select.tsx
-      Slider.tsx
-      ColorInput.tsx
-      RadioGroup.tsx
-  config/
-    schema.ts
-    defaults.ts
-  store/
-    useConfigStore.ts
-  pages/
-    Demo.tsx
-  App.tsx
-  main.tsx
-  index.css
-```
+### ✴ Typography
+- Change font family (Inter, Poppins, Roboto, etc.)
+- Adjust font size (10–60px)
+- Change font weight (400–700)
 
-## Features
-- Live updates across the preview
-- Layout A/B variant toggle
-- Button alignment, radius, shadow, colors
-- Typography family/size/weight
-- Gallery alignment/spacing/radius
-- Layout card radius, padding, stroke, bg
-- Import/Export JSON with validation
+### ✴ Button
+- Set border radius
+- Choose shadow size (none, sm, md, lg)
+- Align left, center, or right
+- Choose background & text colors
 
-## Deploy
-```
-npm run build
-npm run preview
-```
+### ✴ Gallery
+- Adjust alignment (left, center, right)
+- Set image spacing & radius
+- Upload images dynamically
 
-Deploy the `dist/` folder to any static host (Vercel/Netlify/etc.).
+### ✴ Layout
+- Customize card corner radius
+- Adjust container padding
+- Pick section background
+- Configure stroke color & width
+
+### ✴ Layout Variants
+- Toggle between **Layout A** (stacked view) and **Layout B** (side-by-side view)
+
+### ✴ Extra
+- JSON Import/Export for configuration
+- Responsive across mobile, tablet, and desktop
+- Works in both **light and dark mode**
+
+---
+
+## 🏗️ Tech Stack
+- **React + TypeScript + Vite**
+- **TailwindCSS** for styling
+- **Zustand** for global state management
+- **Zod** for schema validation
+- **Vercel** for deployment
+
+---
+
+## 🧠 Architecture
