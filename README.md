@@ -122,4 +122,3 @@ Users can also Undo/Redo, Reset to defaults, or Import/Export configurations in 
 -**✅ Zod Validation on Import** — Prevents broken or invalid configuration files.
 
 -**⚡ Smooth Performance with Vite** — Ensures instant UI updates and fast build times.
----
