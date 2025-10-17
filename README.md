@@ -54,3 +54,36 @@ Users can tweak typography, button styles, gallery layout, and overall design ap
 ---
 
 ## 🧠 Architecture
+src/
+  components/design/
+    DesignPreview.tsx        → Main preview component
+    layouts/                  → Layout A and Layout B
+    primitives/               → Reusable UI elements (Button, Card, Gallery, etc.)
+  editor/
+    EditorPanel.tsx           → Complete editor control panel UI
+    controls/                 → Sub-controls (Sliders, Selects, Color Pickers, Radio Groups)
+  store/
+    useConfigStore.ts         → Zustand store for global state management
+  config/
+    schema.ts, defaults.ts    → Zod schema validation and default configuration
+  pages/
+    Demo.tsx                  → Main page combining the editor and live preview
+
+    ---
+    
+## 🚀 Run the Project Locally
+# 1. Clone the repository
+git clone https://github.com/aastha-0711/Responsive-UI.git
+
+# 2. Navigate into the project folder
+cd Responsive-UI
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+
+
+Then open http://localhost:5173
+ in your browser. ✅
