@@ -1,7 +1,6 @@
 # 🎨 Dynamic UI Editor for Customizable Designs
 
 **Live Demo:** [https://dynamic-ui-phi.vercel.app/](https://dynamic-ui-phi.vercel.app/) 
-**GitHub Repository:** [https://github.com/aastha-0711/Responsive-UI](https://github.com/aastha-0711/Responsive-UI)
 
 ---
 
