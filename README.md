@@ -89,3 +89,37 @@ npm run dev
 
 Then open http://localhost:5173
  in your browser. ✅
+
+ ---
+
+ ## 🧭 How the Editor Works
+
+-The Dynamic UI Editor provides a two-panel layout:
+
+-The left panel (EditorPanel) contains grouped controls for typography, buttons, layout, and gallery.
+
+-The right panel (DesignPreview) shows a live UI preview that updates instantly whenever a user changes settings.
+
+-All data is synchronized using a global Zustand store (useConfigStore.ts), ensuring that every change (font, color, radius, etc.) reflects immediately.
+Users can also Undo/Redo, Reset to defaults, or Import/Export configurations in JSON format — enabling persistence and reuse.
+
+---
+
+## 💡 Additional Customizations & UX Improvements
+
+**Beyond the base assignment requirements, several additional features were implemented for better usability and polish:**
+
+-**🌙 Dark Mode Support**— Complete dark/light theme compatibility for the editor.
+
+-**🎨 Live Color Pickers** — Interactive HEX/RGB color inputs with instant feedback.
+
+-**💾 Preset Saving System** — Users can store multiple custom themes or configurations.
+
+-**🔁 Undo/Redo Functionality** — Allows safe experimentation with design changes.
+
+-**🧩 React Component Export** — Generates a ready-to-use .tsx file from the current live design.
+
+-**✅ Zod Validation on Import** — Prevents broken or invalid configuration files.
+
+-**⚡ Smooth Performance with Vite** — Ensures instant UI updates and fast build times.
+---
